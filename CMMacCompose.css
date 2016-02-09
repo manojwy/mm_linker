@@ -1,0 +1,240 @@
+
+body {
+    background:#ffffff;
+    color:#434B52;
+    margin:0;
+    font-family:"SFUIText-Regular";
+    font-size:16px;
+    line-height:1.6;
+    padding:12px 0px 0px 0px;
+    font-style:normal;
+    font-variant:normal;
+}
+
+span, ol, ul, li span, a, div {
+    font-family:"SFUIText-Regular";
+    font-size:16px;
+    font-style:normal;
+    font-variant:normal;
+}
+
+@media only screen and (device-width: 768px) {
+    body {
+        font-size:18px !important;
+        line-height:1.6 !important;
+        padding:0px 0px 0px 0px !important;
+    }
+ }
+
+#cm_mail_wrap {
+    width: 100%%;
+    margin:0;padding:0;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    overflow:hidden;
+}
+#cm_mail_editor {
+  padding: 0px;
+  margin:0;
+  word-wrap:break-word !important;
+  overflow:auto;
+  outline:none;
+/*  border:1px solid red;*/
+}
+
+#cm_show_more {
+    display:block;
+    padding:3px;
+}
+
+#cm_show_quoted_text {
+  padding-bottom:0px;
+}
+
+.cm_show_quoted_text_tap_icon
+{
+  padding:10px;
+  padding-left:0px;
+  opacity: 0.6;
+  display:block;
+}
+
+.cm_show_quoted_text_tap_icon:active
+{
+  padding:10px;
+  padding-left:0px;
+  opacity: 1.0;
+}
+
+.cm_show_quoted_text_tap_icon_selected
+{
+  padding:10px;
+  padding-left:0px;
+  opacity: 1.0;
+}
+
+.cm_smart_body_init
+{
+  visibility:hidden;
+  word-wrap:break-word !important;
+  zoom:100%;
+}
+
+.cm_smart_body_normal_zoom
+{
+  visibility:visible;
+  word-wrap:break-word !important;
+}
+
+.cm_smart_body_modified_zoom
+{
+  visibility:visible;
+  word-wrap:break-word !important;
+}
+
+.cm_smart_body_modified_zoom_with_break_word
+{
+  visibility:visible;
+  -webkit-touch-callout:none;
+  -webkit-hyphens:auto;
+  -webkit-hyphenate-character:"\2010";
+  -webkit-hyphenate-limit-after:2;
+  -webkit-hyphenate-limit-before:2;
+  word-wrap:break-word !important;
+}
+
+#cm_attachment_pic {
+    float:right;
+    width:30px;
+    height:25px;
+}
+
+.cm_footer:nth-of-type(1) {
+    opacity: 0.5;
+}
+
+.cm_attachment_resize_menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius:7px;
+    border: 1px solid;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    padding:2px;
+}
+
+.cm_menu_separator {
+    -webkit-user-select: none;
+    color:#15c;
+    font-size:12px;
+}
+
+.cm_menu_item {
+    -webkit-user-select: none;
+    color:#15c;
+    font-size:12px;
+    cursor:pointer;
+    display:block;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:28px;
+    width:29px;
+    background-size: 21px 22px;
+}
+
+.cm_menu_item_inline_selected {
+    background-image: url("Text-wrap-selected-OSX.png");
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+.cm_menu_item_inline_unselected {
+    background-image: url("Text-wrap-OSX.png");
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+.cm_menu_item_block_selected {
+    background-image: url("Best-fit-selected-OSX.png");
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+.cm_menu_item_block_unselected {
+    background-image: url("Best-fit-OSX.png");
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+.cm_menu_item_block_half_selected {
+    background-image: url("Image-half-fit-selected-OSX.png");
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+
+.cm_menu_item_block_half_unselected {
+    background-image: url("Image-half-fit-OSX.png");
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+  
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+    
+.cm_menu_item {
+    -webkit-user-select: none;
+    color:#15c;
+    font-size:12px;
+    cursor:pointer;
+    display:block;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:28px;
+    width:29px;
+    background-size: 22px 21px;
+}
+.cm_menu_item_inline_selected {
+    background-image: url("Text-wrap-selected-OSX@2x.png");
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+.cm_menu_item_inline_unselected {
+    background-image: url("Text-wrap-OSX@2x.png");
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+.cm_menu_item_block_selected {
+    background-image: url("Best-fit-selected-OSX@2x.png");
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+
+.cm_menu_item_block_unselected {
+    background-image: url("Best-fit-OSX@2x.png");
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+    
+.cm_menu_item_block_half_selected {
+    background-image: url("Image-half-fit-selected-OSX@2x.png");
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+
+.cm_menu_item_block_half_unselected {
+    background-image: url("Image-half-fit-OSX@2x.png");
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+    
+    
+.cm_inline_attachment {
+}
+}
+
+
+

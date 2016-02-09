@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ v2.0 | 20110126
+ License: none (public domain)
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, li,
+fieldset, form, label, legend, caption,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, blockquote, summary  {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height:1;
+}
+h1 {
+    font-size: 1.80em;
+}
+
+h2 {
+    font-size: 1.40em;
+    
+}
+h3 {
+    font-size: 1.27em;
+    
+}
+h4 {
+    font-size: 1.11em;
+    
+}
+h5 {
+    font-size: 1em;
+    
+}
+h6 {
+    font-size: .86em;
+    
+}
+ol, ul {
+    list-style: none;
+}
+blockquote {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+{
+    content: '';
+    content: none;
+}
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
+}
+p {
+    margin: 1.1em 0;
+}
+blockquote {
+    border-left: #D6D6D6 1px solid;
+    padding-left: 10px;
+}
+strong, b{
+    font-weight: bold;
+}
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1.1em 0;
+    white-space: pre-wrap;
+}
+a:link, a:visited {
+    color: #2A82DB;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active {
+    color: #2A82DB;
+}
+address, cite, dfn, em, samp, var, i {
+    font-style: italic;
+}
+code, kbd, tt {
+    font-family: monospace;
+}
+del, s, strike {
+    text-decoration: line-through;
+}
+ins, u {
+    text-decoration: underline;
+}
+small {
+    font-size: smaller;
+}
+big {
+    font-size: larger;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+}
+li {
+    display: list-item;
+    margin-bottom: .5em;
+}
+dl {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ol ol, ol ol ol ol ol {list-style-type: lower-alpha}
+ol ol ol, ol ol ol ol ol ol {list-style-type: lower-roman}
+ol ol ol ol {list-style-type: decimal}
+
+dt {
+    display: block;
+    font-weight: bold;
+}
+dd {
+    display: block;
+    margin-bottom: 1em;
+}
+embed:focus {
+    outline: none;
+}
+mark {
+    background-color: yellow;
+    color: black;
+}
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: #D6D6D6 1px solid;
+}
+legend {
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+menu {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+label {
+    cursor: default;
+}
+caption {
+    vertical-align: middle;
+}
+
+th {
+    font-weight: bold;
+}
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
